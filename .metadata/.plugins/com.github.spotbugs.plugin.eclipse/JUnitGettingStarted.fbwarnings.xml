@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="21" timestamp="1616120898852" analysisTimestamp="1616120898333" release="">
+  <Project projectName="JUnitGettingStarted">
+    <Jar>C:\Users\vkasa\Documents\workspace\JUnitGettingStarted\bin\FactoringUtilityTest.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\workspace\JUnitGettingStarted\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\JUnitGettingStarted\test</SrcDir>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\JUnitGettingStarted\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 18 Mar 2021 22:28:18 -0400" total_classes="1" referenced_classes="15" total_bugs="0" total_size="83" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="2.89" clock_seconds="0.52" peak_mbytes="975.29" alloc_mbytes="2048.00" gc_seconds="0.07">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="83">
+      <ClassStats class="FactoringUtilityTest" sourceFile="FactoringUtilityTest.java" interface="false" size="83" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="124" invocations="331" avgMicrosecondsPerInvocation="376" maxMicrosecondsPerInvocation="23627" standardDeviationMicrosecondsPerInvocation="1397"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="95" invocations="2" avgMicrosecondsPerInvocation="47796" maxMicrosecondsPerInvocation="86055" standardDeviationMicrosecondsPerInvocation="38259"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="58" invocations="332" avgMicrosecondsPerInvocation="175" maxMicrosecondsPerInvocation="944" standardDeviationMicrosecondsPerInvocation="128"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingMethodsMustInvokeSuperDetector" totalMilliseconds="28" invocations="1" avgMicrosecondsPerInvocation="28692" maxMicrosecondsPerInvocation="28692" standardDeviationMicrosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="27" invocations="15" avgMicrosecondsPerInvocation="1860" maxMicrosecondsPerInvocation="21401" standardDeviationMicrosecondsPerInvocation="5266"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="18" invocations="15" avgMicrosecondsPerInvocation="1236" maxMicrosecondsPerInvocation="7518" standardDeviationMicrosecondsPerInvocation="1925"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="17" invocations="297" avgMicrosecondsPerInvocation="57" maxMicrosecondsPerInvocation="1033" standardDeviationMicrosecondsPerInvocation="106"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="13" invocations="59" avgMicrosecondsPerInvocation="235" maxMicrosecondsPerInvocation="1467" standardDeviationMicrosecondsPerInvocation="284"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="13" invocations="15" avgMicrosecondsPerInvocation="876" maxMicrosecondsPerInvocation="5892" standardDeviationMicrosecondsPerInvocation="1455"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1615984180038" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1615984180039" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1615984397685" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1615984504537" release="" codeSize="47" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1615984598261" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1615985133900" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1615985280783" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1615985322604" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1615985609605" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1615986158643" release="" codeSize="122" numClasses="2"/>
+    <AppVersion sequence="10" timestamp="1615986237815" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1615986517047" release="" codeSize="123" numClasses="2"/>
+    <AppVersion sequence="12" timestamp="1615986543560" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1615986577202" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1615986612436" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1615986636481" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1615986646845" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1615986911397" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1616120292197" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1616120380531" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1616120476025" release="" codeSize="6" numClasses="1"/>
+  </History>
+</BugCollection>

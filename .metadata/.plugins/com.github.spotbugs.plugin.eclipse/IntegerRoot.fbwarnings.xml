@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="5" timestamp="1614346752482" analysisTimestamp="1614346751928" release="">
+  <Project projectName="IntegerRoot">
+    <Jar>C:\Users\vkasa\Documents\workspace\IntegerRoot\bin\IntegerRoot.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\workspace\IntegerRoot\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\IntegerRoot\test</SrcDir>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\IntegerRoot\src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2" last="3" removedByChange="true">
+    <Class classname="IntegerRoot">
+      <SourceLine classname="IntegerRoot" sourcefile="IntegerRoot.java" sourcepath="IntegerRoot.java"/>
+    </Class>
+    <Method classname="IntegerRoot" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="IntegerRoot" start="72" end="93" startBytecode="0" endBytecode="257" sourcefile="IntegerRoot.java" sourcepath="IntegerRoot.java"/>
+    </Method>
+    <LocalVariable name="results" register="4" pc="235" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="IntegerRoot" start="77" end="77" startBytecode="233" endBytecode="233" sourcefile="IntegerRoot.java" sourcepath="IntegerRoot.java"/>
+    <SourceLine classname="IntegerRoot" start="77" end="77" startBytecode="233" endBytecode="233" sourcefile="IntegerRoot.java" sourcepath="IntegerRoot.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="results"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_OBJECT" priority="2" rank="17" abbrev="UC" category="STYLE" first="2" last="3" removedByChange="true">
+    <Class classname="IntegerRoot">
+      <SourceLine classname="IntegerRoot" sourcefile="IntegerRoot.java" sourcepath="IntegerRoot.java"/>
+    </Class>
+    <Method classname="IntegerRoot" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="IntegerRoot" start="72" end="93" startBytecode="0" endBytecode="623" sourcefile="IntegerRoot.java" sourcepath="IntegerRoot.java"/>
+    </Method>
+    <String value="results"/>
+    <Type descriptor="[I"/>
+    <SourceLine classname="IntegerRoot" start="77" end="77" startBytecode="167" endBytecode="167" sourcefile="IntegerRoot.java" sourcepath="IntegerRoot.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 26 Feb 2021 08:39:11 -0500" total_classes="1" referenced_classes="15" total_bugs="0" total_size="37" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="2.77" clock_seconds="0.56" peak_mbytes="503.04" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="37">
+      <ClassStats class="IntegerRoot" sourceFile="IntegerRoot.java" interface="false" size="37" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="152" invocations="351" avgMicrosecondsPerInvocation="435" maxMicrosecondsPerInvocation="16393" standardDeviationMicrosecondsPerInvocation="1152"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="123" invocations="2" avgMicrosecondsPerInvocation="61920" maxMicrosecondsPerInvocation="112084" standardDeviationMicrosecondsPerInvocation="50164"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="78" invocations="352" avgMicrosecondsPerInvocation="222" maxMicrosecondsPerInvocation="1549" standardDeviationMicrosecondsPerInvocation="165"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="23" invocations="15" avgMicrosecondsPerInvocation="1544" maxMicrosecondsPerInvocation="8104" standardDeviationMicrosecondsPerInvocation="2212"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="17" invocations="316" avgMicrosecondsPerInvocation="55" maxMicrosecondsPerInvocation="964" standardDeviationMicrosecondsPerInvocation="94"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="16" invocations="62" avgMicrosecondsPerInvocation="258" maxMicrosecondsPerInvocation="1301" standardDeviationMicrosecondsPerInvocation="220"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614345964864" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1614345964866" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1614346008595" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1614346185591" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1614346342504" release="" codeSize="38" numClasses="1"/>
+  </History>
+</BugCollection>

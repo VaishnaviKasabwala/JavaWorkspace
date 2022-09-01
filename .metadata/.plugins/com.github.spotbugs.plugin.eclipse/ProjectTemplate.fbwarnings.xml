@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="12" timestamp="1611931130776" analysisTimestamp="1611931130450" release="">
+  <Project projectName="ProjectTemplate">
+    <Jar>C:\Users\vkasa\Documents\workspace\ProjectTemplate\bin\CheckPassword.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\workspace\ProjectTemplate\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\ProjectTemplate\test</SrcDir>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\ProjectTemplate\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 29 Jan 2021 09:38:50 -0500" total_classes="1" referenced_classes="18" total_bugs="0" total_size="49" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="1.72" clock_seconds="0.33" peak_mbytes="530.41" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="49">
+      <ClassStats class="CheckPassword" sourceFile="CheckPassword.java" interface="false" size="49" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="90" invocations="362" avgMicrosecondsPerInvocation="250" maxMicrosecondsPerInvocation="11047" standardDeviationMicrosecondsPerInvocation="700"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="73" invocations="2" avgMicrosecondsPerInvocation="36756" maxMicrosecondsPerInvocation="66125" standardDeviationMicrosecondsPerInvocation="29369"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="47" invocations="363" avgMicrosecondsPerInvocation="132" maxMicrosecondsPerInvocation="746" standardDeviationMicrosecondsPerInvocation="104"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="24" invocations="18" avgMicrosecondsPerInvocation="1373" maxMicrosecondsPerInvocation="9328" standardDeviationMicrosecondsPerInvocation="2256"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="11" invocations="328" avgMicrosecondsPerInvocation="35" maxMicrosecondsPerInvocation="456" standardDeviationMicrosecondsPerInvocation="61"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1610720680905" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1610720680905" release="" codeSize="5" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1610721409115" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1610721434816" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1611245770388" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1611246730132" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1611246837958" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1611247037506" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1611926832568" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1611930797917" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1611930873537" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1611930993178" release="" codeSize="49" numClasses="1"/>
+  </History>
+</BugCollection>

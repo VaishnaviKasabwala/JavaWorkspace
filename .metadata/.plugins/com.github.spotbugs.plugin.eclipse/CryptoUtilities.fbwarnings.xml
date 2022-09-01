@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="32" timestamp="1619761269696" analysisTimestamp="1619761269282" release="">
+  <Project projectName="CryptoUtilities">
+    <Jar>C:\Users\vkasa\OneDrive\Documents\workspace\CryptoUtilities\bin\CryptoUtilitiesTest.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\OneDrive\Documents\workspace\CryptoUtilities\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components .jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\CryptoUtilities\src</SrcDir>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\CryptoUtilities\test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="20">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Method classname="CryptoUtilities" name="isEven" signature="(Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="120" end="132" startBytecode="0" endBytecode="20" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <LocalVariable name="two" register="1" pc="9" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CryptoUtilities" start="120" end="120" startBytecode="8" endBytecode="8" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <SourceLine classname="CryptoUtilities" start="120" end="120" startBytecode="8" endBytecode="8" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="two"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="17" last="17" removedByChange="true">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Method classname="CryptoUtilities" name="powerMod" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;)V" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="148" end="184" startBytecode="0" endBytecode="96" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <LocalVariable name="ncopy" register="5" pc="62" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CryptoUtilities" start="158" end="158" startBytecode="60" endBytecode="60" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <SourceLine classname="CryptoUtilities" start="158" end="158" startBytecode="60" endBytecode="60" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="ncopy"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="7" last="9" removedByChange="true">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Method classname="CryptoUtilities" name="isEven" signature="(Lcomponents/naturalnumber/NaturalNumber;)Z" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="122" end="133" startBytecode="0" endBytecode="22" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <LocalVariable name="temp" register="2" pc="18" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CryptoUtilities" start="123" end="123" startBytecode="17" endBytecode="17" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <SourceLine classname="CryptoUtilities" start="123" end="123" startBytecode="17" endBytecode="17" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="temp"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="21" last="21" removedByChange="true">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Method classname="CryptoUtilities" name="reduceToGCD" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;)V" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="101" end="109" startBytecode="0" endBytecode="13" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <LocalVariable name="store" register="2" pc="24" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CryptoUtilities" start="104" end="104" startBytecode="23" endBytecode="23" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <SourceLine classname="CryptoUtilities" start="104" end="104" startBytecode="23" endBytecode="23" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="store"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="3" last="20" removedByChange="true">
+    <Class classname="CryptoUtilities">
+      <SourceLine classname="CryptoUtilities" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Class>
+    <Method classname="CryptoUtilities" name="reduceToGCD" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;)V" isStatic="true">
+      <SourceLine classname="CryptoUtilities" start="101" end="110" startBytecode="0" endBytecode="17" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    </Method>
+    <LocalVariable name="zero" register="2" pc="10" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CryptoUtilities" start="101" end="101" startBytecode="9" endBytecode="9" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <SourceLine classname="CryptoUtilities" start="101" end="101" startBytecode="9" endBytecode="9" sourcefile="CryptoUtilities.java" sourcepath="CryptoUtilities.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="zero"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 30 Apr 2021 01:41:09 -0400" total_classes="1" referenced_classes="19" total_bugs="1" total_size="128" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="1.39" clock_seconds="0.42" peak_mbytes="1091.78" alloc_mbytes="2048.00" gc_seconds="0.00" priority_1="1">
+    <PackageStats package="" total_bugs="1" total_types="2" total_size="128" priority_1="1">
+      <ClassStats class="CryptoUtilitiesTest" sourceFile="CryptoUtilitiesTest.java" interface="false" size="128" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="111" invocations="375" avgMicrosecondsPerInvocation="297" maxMicrosecondsPerInvocation="5179" standardDeviationMicrosecondsPerInvocation="579"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="95" invocations="2" avgMicrosecondsPerInvocation="47544" maxMicrosecondsPerInvocation="85362" standardDeviationMicrosecondsPerInvocation="37818"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="70" invocations="376" avgMicrosecondsPerInvocation="186" maxMicrosecondsPerInvocation="906" standardDeviationMicrosecondsPerInvocation="136"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="15" invocations="341" avgMicrosecondsPerInvocation="46" maxMicrosecondsPerInvocation="924" standardDeviationMicrosecondsPerInvocation="89"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="14" invocations="19" avgMicrosecondsPerInvocation="776" maxMicrosecondsPerInvocation="4482" standardDeviationMicrosecondsPerInvocation="1191"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1616989353108" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1616989353108" release="" codeSize="94" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1616989397334" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1616989795106" release="" codeSize="161" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1616990135716" release="" codeSize="107" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1616990258376" release="" codeSize="109" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1616990299243" release="" codeSize="107" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1616990409604" release="" codeSize="113" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1616990488691" release="" codeSize="108" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1616990581693" release="" codeSize="105" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1616990635031" release="" codeSize="104" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1616991292773" release="" codeSize="137" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1616991473727" release="" codeSize="135" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1617020243708" release="" codeSize="148" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1617020434363" release="" codeSize="168" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1617020788408" release="" codeSize="162" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1617021036650" release="" codeSize="152" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1617021263231" release="" codeSize="153" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1617021652859" release="" codeSize="154" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1617021702668" release="" codeSize="155" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1617021863186" release="" codeSize="156" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1617022138709" release="" codeSize="155" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1617022267461" release="" codeSize="155" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1617077530167" release="" codeSize="215" numClasses="2"/>
+    <AppVersion sequence="24" timestamp="1619759357873" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1619760018907" release="" codeSize="161" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1619760135012" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1619760431797" release="" codeSize="133" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1619760609603" release="" codeSize="161" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1619760902286" release="" codeSize="162" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1619760960100" release="" codeSize="128" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1619761181577" release="" codeSize="290" numClasses="2"/>
+  </History>
+</BugCollection>

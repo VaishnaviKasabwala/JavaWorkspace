@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="33" timestamp="1618570378669" analysisTimestamp="1618570378347" release="">
+  <Project projectName="HW">
+    <Jar>C:\Users\vkasa\OneDrive\Documents\workspace\HW\bin\HW21.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\OneDrive\Documents\workspace\HW\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components .jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\HW\src</SrcDir>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\HW\test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="HW14">
+      <SourceLine classname="HW14" sourcefile="HW14.java" sourcepath="HW14.java"/>
+    </Class>
+    <Method classname="HW14" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="HW14" start="125" end="130" startBytecode="0" endBytecode="11" sourcefile="HW14.java" sourcepath="HW14.java"/>
+    </Method>
+    <LocalVariable name="n" register="2" pc="19" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="HW14" start="127" end="127" startBytecode="18" endBytecode="18" sourcefile="HW14.java" sourcepath="HW14.java"/>
+    <SourceLine classname="HW14" start="127" end="127" startBytecode="18" endBytecode="18" sourcefile="HW14.java" sourcepath="HW14.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="n"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="HW15">
+      <SourceLine classname="HW15" sourcefile="HW15.java" sourcepath="HW15.java"/>
+    </Class>
+    <Method classname="HW15" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="HW15" start="142" end="147" startBytecode="0" endBytecode="11" sourcefile="HW15.java" sourcepath="HW15.java"/>
+    </Method>
+    <LocalVariable name="n" register="2" pc="19" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="HW15" start="144" end="144" startBytecode="18" endBytecode="18" sourcefile="HW15.java" sourcepath="HW15.java"/>
+    <SourceLine classname="HW15" start="144" end="144" startBytecode="18" endBytecode="18" sourcefile="HW15.java" sourcepath="HW15.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="n"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="9" last="9" removedByChange="true">
+    <Class classname="HW17">
+      <SourceLine classname="HW17" sourcefile="HW17.java" sourcepath="HW17.java"/>
+    </Class>
+    <Method classname="HW17" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="HW17" start="125" end="130" startBytecode="0" endBytecode="11" sourcefile="HW17.java" sourcepath="HW17.java"/>
+    </Method>
+    <LocalVariable name="n" register="2" pc="19" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="HW17" start="127" end="127" startBytecode="18" endBytecode="18" sourcefile="HW17.java" sourcepath="HW17.java"/>
+    <SourceLine classname="HW17" start="127" end="127" startBytecode="18" endBytecode="18" sourcefile="HW17.java" sourcepath="HW17.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="n"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="12" last="12" removedByChange="true">
+    <Class classname="HW18">
+      <SourceLine classname="HW18" sourcefile="HW18.java" sourcepath="HW18.java"/>
+    </Class>
+    <Method classname="HW18" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="HW18" start="142" end="147" startBytecode="0" endBytecode="11" sourcefile="HW18.java" sourcepath="HW18.java"/>
+    </Method>
+    <LocalVariable name="n" register="2" pc="19" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="HW18" start="144" end="144" startBytecode="18" endBytecode="18" sourcefile="HW18.java" sourcepath="HW18.java"/>
+    <SourceLine classname="HW18" start="144" end="144" startBytecode="18" endBytecode="18" sourcefile="HW18.java" sourcepath="HW18.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="n"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="14">
+    <Class classname="HW18">
+      <SourceLine classname="HW18" sourcefile="HW18.java" sourcepath="HW18.java"/>
+    </Class>
+    <Method classname="HW18" name="removeMin" signature="(Lcomponents/queue/Queue;Ljava/util/Comparator;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="HW18" start="41" end="58" startBytecode="0" endBytecode="47" sourcefile="HW18.java" sourcepath="HW18.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="134" end="3785" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="min" register="2" pc="84" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <LocalVariable name="s" register="4" pc="84" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="HW18" start="52" end="52" startBytecode="85" endBytecode="85" sourcefile="HW18.java" sourcepath="HW18.java"/>
+    <SourceLine classname="HW18" start="52" end="52" startBytecode="85" endBytecode="85" sourcefile="HW18.java" sourcepath="HW18.java"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="19" last="19" removedByChange="true">
+    <Class classname="HW19">
+      <SourceLine classname="HW19" sourcefile="HW19.java" sourcepath="HW19.java"/>
+    </Class>
+    <Method classname="HW19" name="removeMin" signature="(Lcomponents/queue/Queue;Ljava/util/Comparator;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="HW19" start="41" end="58" startBytecode="0" endBytecode="47" sourcefile="HW19.java" sourcepath="HW19.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="134" end="3785" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="min" register="2" pc="84" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <LocalVariable name="s" register="4" pc="84" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="HW19" start="52" end="52" startBytecode="85" endBytecode="85" sourcefile="HW19.java" sourcepath="HW19.java"/>
+    <SourceLine classname="HW19" start="52" end="52" startBytecode="85" endBytecode="85" sourcefile="HW19.java" sourcepath="HW19.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="23" last="24" removedByChange="true">
+    <Class classname="HW20">
+      <SourceLine classname="HW20" sourcefile="HW20.java" sourcepath="HW20.java"/>
+    </Class>
+    <Method classname="HW20" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="HW20" start="142" end="147" startBytecode="0" endBytecode="11" sourcefile="HW20.java" sourcepath="HW20.java"/>
+    </Method>
+    <LocalVariable name="n" register="2" pc="19" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="HW20" start="144" end="144" startBytecode="18" endBytecode="18" sourcefile="HW20.java" sourcepath="HW20.java"/>
+    <SourceLine classname="HW20" start="144" end="144" startBytecode="18" endBytecode="18" sourcefile="HW20.java" sourcepath="HW20.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="n"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="33">
+    <Class classname="HW21">
+      <SourceLine classname="HW21" sourcefile="HW21.java" sourcepath="HW21.java"/>
+    </Class>
+    <Method classname="HW21" name="nextWordOrSeparator" signature="(Ljava/lang/String;ILcomponents/set/Set;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="HW21" start="76" end="96" startBytecode="0" endBytecode="310" sourcefile="HW21.java" sourcepath="HW21.java"/>
+    </Method>
+    <SourceLine classname="HW21" start="82" end="82" startBytecode="30" endBytecode="30" sourcefile="HW21.java" sourcepath="HW21.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 16 Apr 2021 06:52:58 -0400" total_classes="1" referenced_classes="15" total_bugs="4" total_size="29" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="1.48" clock_seconds="0.33" peak_mbytes="903.49" alloc_mbytes="2048.00" gc_seconds="0.01" priority_2="2" priority_1="2">
+    <PackageStats package="" total_bugs="4" total_types="4" total_size="29" priority_2="2" priority_1="2">
+      <ClassStats class="HW21" sourceFile="HW21.java" interface="false" size="29" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="92" invocations="354" avgMicrosecondsPerInvocation="261" maxMicrosecondsPerInvocation="12947" standardDeviationMicrosecondsPerInvocation="783"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="63" invocations="2" avgMicrosecondsPerInvocation="31649" maxMicrosecondsPerInvocation="55622" standardDeviationMicrosecondsPerInvocation="23972"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="45" invocations="355" avgMicrosecondsPerInvocation="127" maxMicrosecondsPerInvocation="557" standardDeviationMicrosecondsPerInvocation="84"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="12" invocations="15" avgMicrosecondsPerInvocation="864" maxMicrosecondsPerInvocation="4183" standardDeviationMicrosecondsPerInvocation="1227"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="11" invocations="319" avgMicrosecondsPerInvocation="35" maxMicrosecondsPerInvocation="562" standardDeviationMicrosecondsPerInvocation="65"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1616126069125" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1616126069127" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1616952726353" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1616953082018" release="" codeSize="17" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1616955405707" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1616955573202" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1616955871861" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1616955878217" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1616955892270" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1616958051325" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1616958101076" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1616988792772" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1617356373108" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1617356411985" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1617356577623" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1617357238351" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1617357809227" release="" codeSize="17" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1617357922311" release="" codeSize="17" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1617358671502" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1617966069974" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1617966372244" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1617966445516" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1617966570488" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1617967458856" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1617967481113" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1617967522488" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1617967585506" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1617967611789" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1617967634630" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1617967881971" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1617968100953" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1618569930779" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1618570008119" release="" codeSize="17" numClasses="1"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="15" timestamp="1614953428410" analysisTimestamp="1614953428164" release="">
+  <Project projectName="ArraysAndReferences">
+    <Jar>C:\Users\vkasa\Documents\workspace\ArraysAndReferences\bin\ArraysAndReferences.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\workspace\ArraysAndReferences\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\ArraysAndReferences\src</SrcDir>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\ArraysAndReferences\test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2" last="2" removedByChange="true">
+    <Class classname="ArraysAndReferences">
+      <SourceLine classname="ArraysAndReferences" sourcefile="ArraysAndReferences.java" sourcepath="ArraysAndReferences.java"/>
+    </Class>
+    <Method classname="ArraysAndReferences" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="ArraysAndReferences" start="106" end="125" startBytecode="0" endBytecode="34" sourcefile="ArraysAndReferences.java" sourcepath="ArraysAndReferences.java"/>
+    </Method>
+    <LocalVariable name="out" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ArraysAndReferences" start="106" end="106" startBytecode="7" endBytecode="7" sourcefile="ArraysAndReferences.java" sourcepath="ArraysAndReferences.java"/>
+    <SourceLine classname="ArraysAndReferences" start="106" end="106" startBytecode="7" endBytecode="7" sourcefile="ArraysAndReferences.java" sourcepath="ArraysAndReferences.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="out"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 5 Mar 2021 09:10:28 -0500" total_classes="1" referenced_classes="18" total_bugs="0" total_size="39" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="0.62" clock_seconds="0.25" peak_mbytes="1016.99" alloc_mbytes="2048.00" gc_seconds="0.03">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="39">
+      <ClassStats class="ArraysAndReferences" sourceFile="ArraysAndReferences.java" interface="false" size="39" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="82" invocations="362" avgMicrosecondsPerInvocation="229" maxMicrosecondsPerInvocation="29734" standardDeviationMicrosecondsPerInvocation="1577"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="49" invocations="2" avgMicrosecondsPerInvocation="24523" maxMicrosecondsPerInvocation="43483" standardDeviationMicrosecondsPerInvocation="18960"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="35" invocations="363" avgMicrosecondsPerInvocation="97" maxMicrosecondsPerInvocation="484" standardDeviationMicrosecondsPerInvocation="78"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614951408857" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1614951408859" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1614951794665" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1614952027452" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1614952064718" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1614952126364" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1614952452248" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1614952866840" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1614952881256" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1614953010120" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1614953073702" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1614953087884" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1614953246467" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1614953294283" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1614953313235" release="" codeSize="40" numClasses="1"/>
+  </History>
+</BugCollection>

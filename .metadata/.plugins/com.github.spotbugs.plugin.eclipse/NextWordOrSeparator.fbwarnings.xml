@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="6" timestamp="1618577805959" analysisTimestamp="1618577805579" release="">
+  <Project projectName="NextWordOrSeparator">
+    <Jar>C:\Users\vkasa\OneDrive\Documents\workspace\NextWordOrSeparator\bin\NextWordOrSeparatorTest.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\OneDrive\Documents\workspace\NextWordOrSeparator\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components .jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\NextWordOrSeparator\src</SrcDir>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\NextWordOrSeparator\test</SrcDir>
+  </Project>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="4" last="4" removedByChange="true">
+    <Class classname="NextWordOrSeparatorTest">
+      <SourceLine classname="NextWordOrSeparatorTest" sourcefile="NextWordOrSeparatorTest.java" sourcepath="NextWordOrSeparatorTest.java"/>
+    </Class>
+    <Method classname="NextWordOrSeparatorTest" name="nextWordOrSeparator" signature="(Ljava/lang/String;ILcomponents/set/Set;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="NextWordOrSeparatorTest" start="80" end="105" startBytecode="0" endBytecode="414" sourcefile="NextWordOrSeparatorTest.java" sourcepath="NextWordOrSeparatorTest.java"/>
+    </Method>
+    <SourceLine classname="NextWordOrSeparatorTest" start="91" end="91" startBytecode="114" endBytecode="114" sourcefile="NextWordOrSeparatorTest.java" sourcepath="NextWordOrSeparatorTest.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 16 Apr 2021 08:56:45 -0400" total_classes="1" referenced_classes="21" total_bugs="0" total_size="64" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="1.89" clock_seconds="0.38" peak_mbytes="567.92" alloc_mbytes="2048.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="64">
+      <ClassStats class="NextWordOrSeparatorTest" sourceFile="NextWordOrSeparatorTest.java" interface="false" size="64" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="99" invocations="369" avgMicrosecondsPerInvocation="268" maxMicrosecondsPerInvocation="9347" standardDeviationMicrosecondsPerInvocation="661"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="71" invocations="2" avgMicrosecondsPerInvocation="35513" maxMicrosecondsPerInvocation="63449" standardDeviationMicrosecondsPerInvocation="27936"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="65" invocations="370" avgMicrosecondsPerInvocation="176" maxMicrosecondsPerInvocation="9835" standardDeviationMicrosecondsPerInvocation="514"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="17" invocations="334" avgMicrosecondsPerInvocation="53" maxMicrosecondsPerInvocation="657" standardDeviationMicrosecondsPerInvocation="85"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="15" invocations="21" avgMicrosecondsPerInvocation="733" maxMicrosecondsPerInvocation="3564" standardDeviationMicrosecondsPerInvocation="992"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1618576595277" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1618576595279" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1618576772722" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1618576941583" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1618576950756" release="" codeSize="65" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1618577747315" release="" codeSize="64" numClasses="1"/>
+  </History>
+</BugCollection>

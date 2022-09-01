@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="6" timestamp="1616768921510" analysisTimestamp="1616768920912" release="">
+  <Project projectName="SetSecondaryMethods">
+    <Jar>C:\Users\vkasa\OneDrive\Documents\workspace\SetSecondaryMethods\bin\SetSecondary1L.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\OneDrive\Documents\workspace\SetSecondaryMethods\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components .jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\SetSecondaryMethods\src</SrcDir>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\SetSecondaryMethods\test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 26 Mar 2021 10:28:40 -0400" total_classes="1" referenced_classes="28" total_bugs="0" total_size="27" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="3.41" clock_seconds="0.60" peak_mbytes="574.48" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="27">
+      <ClassStats class="SetSecondary1L" sourceFile="SetSecondary1L.java" interface="false" size="27" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="236" invocations="392" avgMicrosecondsPerInvocation="603" maxMicrosecondsPerInvocation="9808" standardDeviationMicrosecondsPerInvocation="1207"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="109" invocations="395" avgMicrosecondsPerInvocation="277" maxMicrosecondsPerInvocation="15928" standardDeviationMicrosecondsPerInvocation="1094"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="93" invocations="2" avgMicrosecondsPerInvocation="46974" maxMicrosecondsPerInvocation="78621" standardDeviationMicrosecondsPerInvocation="31647"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="22" invocations="28" avgMicrosecondsPerInvocation="790" maxMicrosecondsPerInvocation="6968" standardDeviationMicrosecondsPerInvocation="1389"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1616765260069" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1616765260070" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1616765292557" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1616765365394" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1616765395956" release="" codeSize="110" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1616767891702" release="" codeSize="19" numClasses="1"/>
+  </History>
+</BugCollection>

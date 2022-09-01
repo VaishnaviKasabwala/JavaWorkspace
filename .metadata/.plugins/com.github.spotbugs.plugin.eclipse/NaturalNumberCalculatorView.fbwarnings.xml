@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="12" timestamp="1619186458337" analysisTimestamp="1619186457033" release="">
+  <Project projectName="NaturalNumberCalculatorView">
+    <Jar>C:\Users\vkasa\OneDrive\Documents\workspace\NaturalNumberCalculatorView\bin\NNCalcViewLab.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\OneDrive\Documents\workspace\NaturalNumberCalculatorView\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components .jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\NaturalNumberCalculatorView\src</SrcDir>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\NaturalNumberCalculatorView\test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="5" last="5" removedByChange="true">
+    <Class classname="NNCalcViewLab">
+      <SourceLine classname="NNCalcViewLab" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Class>
+    <Method classname="NNCalcViewLab" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="NNCalcViewLab" start="55" end="165" startBytecode="0" endBytecode="140" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Method>
+    <LocalVariable name="buttonPanel" register="3" pc="286" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcViewLab" start="116" end="116" startBytecode="285" endBytecode="285" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <SourceLine classname="NNCalcViewLab" start="116" end="116" startBytecode="285" endBytecode="285" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="buttonPanel"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="8" last="8" removedByChange="true">
+    <Class classname="NNCalcViewLab">
+      <SourceLine classname="NNCalcViewLab" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Class>
+    <Method classname="NNCalcViewLab" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="NNCalcViewLab" start="56" end="195" startBytecode="0" endBytecode="271" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Method>
+    <LocalVariable name="combinedPanel" register="5" pc="518" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcViewLab" start="167" end="167" startBytecode="516" endBytecode="516" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <SourceLine classname="NNCalcViewLab" start="167" end="167" startBytecode="516" endBytecode="516" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="combinedPanel"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="5" last="8" removedByChange="true">
+    <Class classname="NNCalcViewLab">
+      <SourceLine classname="NNCalcViewLab" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Class>
+    <Method classname="NNCalcViewLab" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="NNCalcViewLab" start="56" end="195" startBytecode="0" endBytecode="271" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Method>
+    <LocalVariable name="inputScrollPane" register="1" pc="257" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcViewLab" start="110" end="110" startBytecode="256" endBytecode="256" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <SourceLine classname="NNCalcViewLab" start="110" end="110" startBytecode="256" endBytecode="256" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="inputScrollPane"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="4" last="4" removedByChange="true">
+    <Class classname="NNCalcViewLab">
+      <SourceLine classname="NNCalcViewLab" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Class>
+    <Method classname="NNCalcViewLab" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="NNCalcViewLab" start="53" end="160" startBytecode="0" endBytecode="131" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Method>
+    <LocalVariable name="inputTextScrollPane" register="1" pc="257" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcViewLab" start="107" end="107" startBytecode="256" endBytecode="256" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <SourceLine classname="NNCalcViewLab" start="107" end="107" startBytecode="256" endBytecode="256" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="inputTextScrollPane"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="5" last="8" removedByChange="true">
+    <Class classname="NNCalcViewLab">
+      <SourceLine classname="NNCalcViewLab" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Class>
+    <Method classname="NNCalcViewLab" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="NNCalcViewLab" start="56" end="195" startBytecode="0" endBytecode="271" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Method>
+    <LocalVariable name="outputScrollPane" register="2" pc="269" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcViewLab" start="111" end="111" startBytecode="268" endBytecode="268" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <SourceLine classname="NNCalcViewLab" start="111" end="111" startBytecode="268" endBytecode="268" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="outputScrollPane"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="4" last="4" removedByChange="true">
+    <Class classname="NNCalcViewLab">
+      <SourceLine classname="NNCalcViewLab" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Class>
+    <Method classname="NNCalcViewLab" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="NNCalcViewLab" start="53" end="160" startBytecode="0" endBytecode="131" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Method>
+    <LocalVariable name="outputTextScrollPane" register="2" pc="269" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcViewLab" start="108" end="108" startBytecode="268" endBytecode="268" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <SourceLine classname="NNCalcViewLab" start="108" end="108" startBytecode="268" endBytecode="268" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="outputTextScrollPane"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="7" last="7" removedByChange="true">
+    <Class classname="NNCalcViewLab">
+      <SourceLine classname="NNCalcViewLab" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Class>
+    <Method classname="NNCalcViewLab" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="NNCalcViewLab" start="55" end="188" startBytecode="0" endBytecode="249" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Method>
+    <LocalVariable name="sidePanel" register="4" pc="472" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcViewLab" start="148" end="148" startBytecode="470" endBytecode="470" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <SourceLine classname="NNCalcViewLab" start="148" end="148" startBytecode="470" endBytecode="470" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="sidePanel"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="4">
+    <Class classname="NNCalcViewLab">
+      <SourceLine classname="NNCalcViewLab" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Class>
+    <Method classname="NNCalcViewLab" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="NNCalcViewLab" start="249" end="250" startBytecode="0" endBytecode="4" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Method>
+    <LocalVariable name="view" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcViewLab" start="249" end="249" startBytecode="7" endBytecode="7" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <SourceLine classname="NNCalcViewLab" start="249" end="249" startBytecode="7" endBytecode="7" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="view"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 23 Apr 2021 10:00:56 -0400" total_classes="1" referenced_classes="289" total_bugs="1" total_size="109" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="5.47" clock_seconds="1.31" peak_mbytes="979.24" alloc_mbytes="2048.00" gc_seconds="0.02" priority_1="1">
+    <PackageStats package="" total_bugs="1" total_types="1" total_size="109" priority_1="1">
+      <ClassStats class="NNCalcViewLab" sourceFile="NNCalcViewLab.java" interface="false" size="109" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="240" invocations="1553" avgMicrosecondsPerInvocation="154" maxMicrosecondsPerInvocation="16682" standardDeviationMicrosecondsPerInvocation="502"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="192" invocations="1557" avgMicrosecondsPerInvocation="123" maxMicrosecondsPerInvocation="667" standardDeviationMicrosecondsPerInvocation="77"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="147" invocations="289" avgMicrosecondsPerInvocation="508" maxMicrosecondsPerInvocation="8938" standardDeviationMicrosecondsPerInvocation="1012"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="136" invocations="289" avgMicrosecondsPerInvocation="471" maxMicrosecondsPerInvocation="6195" standardDeviationMicrosecondsPerInvocation="892"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="94" invocations="2" avgMicrosecondsPerInvocation="47252" maxMicrosecondsPerInvocation="53476" standardDeviationMicrosecondsPerInvocation="6224"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="79" invocations="632" avgMicrosecondsPerInvocation="125" maxMicrosecondsPerInvocation="1304" standardDeviationMicrosecondsPerInvocation="145"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="42" invocations="289" avgMicrosecondsPerInvocation="146" maxMicrosecondsPerInvocation="2192" standardDeviationMicrosecondsPerInvocation="249"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="34" invocations="353" avgMicrosecondsPerInvocation="97" maxMicrosecondsPerInvocation="1340" standardDeviationMicrosecondsPerInvocation="161"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="30" invocations="1506" avgMicrosecondsPerInvocation="20" maxMicrosecondsPerInvocation="836" standardDeviationMicrosecondsPerInvocation="38"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1618836839128" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1618836839131" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1618836861813" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1618836897240" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1618837752170" release="" codeSize="55" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1618837828045" release="" codeSize="57" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1618837890296" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1618838104319" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1618838143941" release="" codeSize="79" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1618838351408" release="" codeSize="107" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1618976019721" release="" codeSize="107" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1618976027342" release="" codeSize="107" numClasses="1"/>
+  </History>
+</BugCollection>

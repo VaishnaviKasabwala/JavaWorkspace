@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="9" timestamp="1617368374508" analysisTimestamp="1617368373808" release="">
+  <Project projectName="QueueSort">
+    <Jar>C:\Users\vkasa\OneDrive\Documents\workspace\QueueSort\bin\Queue1LSort1.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\OneDrive\Documents\workspace\QueueSort\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components .jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\QueueSort\test</SrcDir>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\QueueSort\src</SrcDir>
+  </Project>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="5" last="5" removedByChange="true">
+    <Class classname="Queue1LSort1">
+      <SourceLine classname="Queue1LSort1" sourcefile="Queue1LSort1.java" sourcepath="Queue1LSort1.java"/>
+    </Class>
+    <Method classname="Queue1LSort1" name="removeMin" signature="(Lcomponents/queue/Queue;Ljava/util/Comparator;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="Queue1LSort1" start="41" end="61" startBytecode="0" endBytecode="65" sourcefile="Queue1LSort1.java" sourcepath="Queue1LSort1.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="134" end="3785" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="min" register="2" pc="124" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <LocalVariable name="s" register="4" pc="124" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Queue1LSort1" start="55" end="55" startBytecode="125" endBytecode="125" sourcefile="Queue1LSort1.java" sourcepath="Queue1LSort1.java"/>
+    <SourceLine classname="Queue1LSort1" start="55" end="55" startBytecode="125" endBytecode="125" sourcefile="Queue1LSort1.java" sourcepath="Queue1LSort1.java"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="6" last="7" removedByChange="true">
+    <Class classname="Queue1LSort1">
+      <SourceLine classname="Queue1LSort1" sourcefile="Queue1LSort1.java" sourcepath="Queue1LSort1.java"/>
+    </Class>
+    <Method classname="Queue1LSort1" name="removeMin" signature="(Lcomponents/queue/Queue;Ljava/util/Comparator;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="Queue1LSort1" start="41" end="63" startBytecode="0" endBytecode="70" sourcefile="Queue1LSort1.java" sourcepath="Queue1LSort1.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="134" end="3785" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="min" register="2" pc="127" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="components.queue.Queue" name="front" signature="()Ljava/lang/Object;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.queue.Queue"/>
+    </Method>
+    <SourceLine classname="Queue1LSort1" start="57" end="57" startBytecode="128" endBytecode="128" sourcefile="Queue1LSort1.java" sourcepath="Queue1LSort1.java"/>
+    <SourceLine classname="Queue1LSort1" start="57" end="57" startBytecode="128" endBytecode="128" sourcefile="Queue1LSort1.java" sourcepath="Queue1LSort1.java"/>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="3">
+    <Class classname="QueueSortMain$StringLT">
+      <SourceLine classname="QueueSortMain$StringLT" start="1" end="23" sourcefile="QueueSortMain.java" sourcepath="QueueSortMain.java"/>
+    </Class>
+    <SourceLine classname="QueueSortMain$StringLT" start="20" end="20" startBytecode="0" endBytecode="0" sourcefile="StringLT.java" sourcepath="StringLT.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 2 Apr 2021 08:59:33 -0400" total_classes="1" referenced_classes="31" total_bugs="1" total_size="28" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="3.41" clock_seconds="0.70" peak_mbytes="988.50" alloc_mbytes="2048.00" gc_seconds="0.02" priority_2="1">
+    <PackageStats package="" total_bugs="1" total_types="2" total_size="28" priority_2="1">
+      <ClassStats class="Queue1LSort1" sourceFile="Queue1LSort1.java" interface="false" size="28" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="214" invocations="426" avgMicrosecondsPerInvocation="502" maxMicrosecondsPerInvocation="33270" standardDeviationMicrosecondsPerInvocation="1913"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="133" invocations="2" avgMicrosecondsPerInvocation="66891" maxMicrosecondsPerInvocation="116472" standardDeviationMicrosecondsPerInvocation="49581"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="100" invocations="429" avgMicrosecondsPerInvocation="234" maxMicrosecondsPerInvocation="1221" standardDeviationMicrosecondsPerInvocation="168"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="36" invocations="31" avgMicrosecondsPerInvocation="1189" maxMicrosecondsPerInvocation="8609" standardDeviationMicrosecondsPerInvocation="1988"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="26" invocations="392" avgMicrosecondsPerInvocation="67" maxMicrosecondsPerInvocation="1372" standardDeviationMicrosecondsPerInvocation="128"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="22" invocations="31" avgMicrosecondsPerInvocation="736" maxMicrosecondsPerInvocation="7345" standardDeviationMicrosecondsPerInvocation="1327"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1617366223363" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1617366223365" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1617366247755" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1617366296297" release="" codeSize="36" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1617366298048" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1617366482387" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1617367893485" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1617367934989" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1617368268924" release="" codeSize="27" numClasses="1"/>
+  </History>
+</BugCollection>

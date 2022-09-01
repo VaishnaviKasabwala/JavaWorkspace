@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="16" timestamp="1611757760062" analysisTimestamp="1611757759844" release="">
+  <Project projectName="CoinChange">
+    <Jar>C:\Users\vkasa\Documents\workspace\CoinChange\bin\CoinChange2.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\workspace\CoinChange\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\CoinChange\src</SrcDir>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\CoinChange\test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 27 Jan 2021 09:29:19 -0500" total_classes="1" referenced_classes="17" total_bugs="0" total_size="33" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="0.56" clock_seconds="0.22" peak_mbytes="599.98" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="33">
+      <ClassStats class="CoinChange2" sourceFile="CoinChange2.java" interface="false" size="33" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="68" invocations="356" avgMicrosecondsPerInvocation="191" maxMicrosecondsPerInvocation="9288" standardDeviationMicrosecondsPerInvocation="609"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="58" invocations="2" avgMicrosecondsPerInvocation="29336" maxMicrosecondsPerInvocation="53655" standardDeviationMicrosecondsPerInvocation="24319"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="34" invocations="357" avgMicrosecondsPerInvocation="96" maxMicrosecondsPerInvocation="719" standardDeviationMicrosecondsPerInvocation="86"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1611753534524" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1611753534524" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1611754785813" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1611754811877" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1611755102819" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1611756140230" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1611756210311" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1611756289945" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1611756575112" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1611756654356" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1611757291810" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1611757339914" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1611757505485" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1611757526916" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1611757586516" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1611757624357" release="" codeSize="6" numClasses="1"/>
+  </History>
+</BugCollection>

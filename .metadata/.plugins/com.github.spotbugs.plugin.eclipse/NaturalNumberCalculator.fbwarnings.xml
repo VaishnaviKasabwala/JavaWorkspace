@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="9" timestamp="1619647981596" analysisTimestamp="1619647981322" release="">
+  <Project projectName="NaturalNumberCalculator">
+    <Jar>C:\Users\vkasa\OneDrive\Documents\workspace\NaturalNumberCalculator\bin\NNCalcController1.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\OneDrive\Documents\workspace\NaturalNumberCalculator\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components .jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\NaturalNumberCalculator\src</SrcDir>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\NaturalNumberCalculator\test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2" last="2" removedByChange="true">
+    <Class classname="NNCalcView1">
+      <SourceLine classname="NNCalcView1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Class>
+    <Method classname="NNCalcView1" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="NNCalcView1" start="77" end="223" startBytecode="0" endBytecode="275" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Method>
+    <LocalVariable name="inputScrollPane" register="1" pc="280" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcView1" start="140" end="140" startBytecode="279" endBytecode="279" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    <SourceLine classname="NNCalcView1" start="140" end="140" startBytecode="279" endBytecode="279" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="inputScrollPane"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2" last="2" removedByChange="true">
+    <Class classname="NNCalcView1">
+      <SourceLine classname="NNCalcView1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Class>
+    <Method classname="NNCalcView1" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="NNCalcView1" start="77" end="223" startBytecode="0" endBytecode="275" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Method>
+    <LocalVariable name="outputScrollPane" register="2" pc="292" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcView1" start="141" end="141" startBytecode="291" endBytecode="291" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    <SourceLine classname="NNCalcView1" start="141" end="141" startBytecode="291" endBytecode="291" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="outputScrollPane"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="2" last="2" removedByChange="true">
+    <Class classname="NNCalcView1">
+      <SourceLine classname="NNCalcView1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Class>
+    <Field classname="NNCalcView1" name="controller" signature="LNNCalcController;" isStatic="false">
+      <SourceLine classname="NNCalcView1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Field>
+    <SourceLine classname="NNCalcView1" start="292" end="292" startBytecode="22" endBytecode="22" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 28 Apr 2021 18:13:01 -0400" total_classes="1" referenced_classes="17" total_bugs="0" total_size="95" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="0.78" clock_seconds="0.28" peak_mbytes="1007.25" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="95">
+      <ClassStats class="NNCalcController1" sourceFile="NNCalcController1.java" interface="false" size="95" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="75" invocations="338" avgMicrosecondsPerInvocation="223" maxMicrosecondsPerInvocation="4379" standardDeviationMicrosecondsPerInvocation="454"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="71" invocations="2" avgMicrosecondsPerInvocation="35892" maxMicrosecondsPerInvocation="65727" standardDeviationMicrosecondsPerInvocation="29835"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="48" invocations="339" avgMicrosecondsPerInvocation="144" maxMicrosecondsPerInvocation="942" standardDeviationMicrosecondsPerInvocation="114"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1619185633935" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1619185633936" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1619186080571" release="" codeSize="151" numClasses="2"/>
+    <AppVersion sequence="3" timestamp="1619186440309" release="" codeSize="187" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1619645091343" release="" codeSize="66" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1619645495945" release="" codeSize="71" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1619646091992" release="" codeSize="105" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1619646364605" release="" codeSize="95" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1619646465527" release="" codeSize="95" numClasses="1"/>
+  </History>
+</BugCollection>

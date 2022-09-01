@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="19" timestamp="1616120258277" analysisTimestamp="1616120256694" release="">
+  <Project projectName="HW13">
+    <Jar>C:\Users\vkasa\Documents\workspace\HW13\bin\HW13.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\workspace\HW13\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\HW13\src</SrcDir>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\HW13\test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="HW13">
+      <SourceLine classname="HW13" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    </Class>
+    <Method classname="HW13" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="HW13" start="125" end="130" startBytecode="0" endBytecode="11" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    </Method>
+    <LocalVariable name="n" register="2" pc="19" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="HW13" start="127" end="127" startBytecode="18" endBytecode="18" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    <SourceLine classname="HW13" start="127" end="127" startBytecode="18" endBytecode="18" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="n"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="11" last="11" removedByChange="true">
+    <Class classname="HW13">
+      <SourceLine classname="HW13" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    </Class>
+    <Method classname="HW13" name="toInt" signature="(Lcomponents/naturalnumber/NaturalNumber;)I" isStatic="true">
+      <SourceLine classname="HW13" start="78" end="85" startBytecode="0" endBytecode="12" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    </Method>
+    <LocalVariable name="d1" register="1" pc="7" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="HW13" start="78" end="78" startBytecode="6" endBytecode="6" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    <SourceLine classname="HW13" start="78" end="78" startBytecode="6" endBytecode="6" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="d1"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_CLASS_AND_INTERFACE" priority="1" rank="4" abbrev="EC" category="CORRECTNESS" first="17" last="17" removedByChange="true">
+    <Class classname="HW13">
+      <SourceLine classname="HW13" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    </Class>
+    <Method classname="HW13" name="findTag" signature="(Lcomponents/xmltree/XMLTree;Ljava/lang/String;)Z" isStatic="true">
+      <SourceLine classname="HW13" start="102" end="115" startBytecode="0" endBytecode="29" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="134" end="3785" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcomponents/xmltree/XMLTree;" role="TYPE_EXPECTED">
+      <SourceLine classname="components.xmltree.XMLTree"/>
+    </Type>
+    <LocalVariable name="tag" register="1" pc="12" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <LocalVariable name="xml" register="0" pc="12" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="java.lang.Object" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Object" start="151" end="151" startBytecode="0" endBytecode="73" sourcefile="Object.java" sourcepath="java/lang/Object.java"/>
+    </Method>
+    <SourceLine classname="HW13" start="105" end="105" startBytecode="13" endBytecode="13" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    <SourceLine classname="HW13" start="105" end="105" startBytecode="13" endBytecode="13" sourcefile="HW13.java" sourcepath="HW13.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="11" last="11" removedByChange="true">
+    <Class classname="HW13">
+      <SourceLine classname="HW13" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    </Class>
+    <Method classname="HW13" name="toInt" signature="(Lcomponents/naturalnumber/NaturalNumber;)I" isStatic="true">
+      <SourceLine classname="HW13" start="78" end="85" startBytecode="0" endBytecode="99" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    </Method>
+    <SourceLine classname="HW13" start="80" end="80" startBytecode="8" endBytecode="8" sourcefile="HW13.java" sourcepath="HW13.java"/>
+  </BugInstance>
+  <BugInstance type="RV_CHECK_COMPARETO_FOR_SPECIFIC_RETURN_VALUE" priority="2" rank="7" abbrev="RV" category="CORRECTNESS" first="1" last="1" removedByChange="true">
+    <Class classname="HW13">
+      <SourceLine classname="HW13" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    </Class>
+    <Method classname="HW13" name="root" signature="(Lcomponents/naturalnumber/NaturalNumber;I)V" isStatic="true">
+      <SourceLine classname="HW13" start="33" end="74" startBytecode="0" endBytecode="517" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    </Method>
+    <Method classname="components.naturalnumber.NaturalNumber" name="compareTo" signature="(Ljava/lang/Object;)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="components.naturalnumber.NaturalNumber"/>
+    </Method>
+    <Int value="-1" role="INT_VALUE"/>
+    <SourceLine classname="HW13" start="63" end="63" startBytecode="186" endBytecode="186" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    <SourceLine classname="HW13" start="63" end="63" startBytecode="186" endBytecode="186" sourcefile="HW13.java" sourcepath="HW13.java"/>
+  </BugInstance>
+  <BugInstance type="RV_CHECK_COMPARETO_FOR_SPECIFIC_RETURN_VALUE" priority="2" rank="7" abbrev="RV" category="CORRECTNESS" first="1" last="1" removedByChange="true">
+    <Class classname="HW13">
+      <SourceLine classname="HW13" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    </Class>
+    <Method classname="HW13" name="root" signature="(Lcomponents/naturalnumber/NaturalNumber;I)V" isStatic="true">
+      <SourceLine classname="HW13" start="33" end="74" startBytecode="0" endBytecode="517" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    </Method>
+    <Method classname="components.naturalnumber.NaturalNumber" name="compareTo" signature="(Ljava/lang/Object;)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="components.naturalnumber.NaturalNumber"/>
+    </Method>
+    <Int value="1" role="INT_VALUE"/>
+    <SourceLine classname="HW13" start="51" end="51" startBytecode="234" endBytecode="234" sourcefile="HW13.java" sourcepath="HW13.java"/>
+    <SourceLine classname="HW13" start="51" end="51" startBytecode="234" endBytecode="234" sourcefile="HW13.java" sourcepath="HW13.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 18 Mar 2021 22:17:36 -0400" total_classes="1" referenced_classes="18" total_bugs="1" total_size="41" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="7.25" clock_seconds="1.60" peak_mbytes="943.22" alloc_mbytes="2048.00" gc_seconds="0.02" priority_1="1">
+    <PackageStats package="" total_bugs="1" total_types="1" total_size="41" priority_1="1">
+      <ClassStats class="HW13" sourceFile="HW13.java" interface="false" size="41" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="595" invocations="2" avgMicrosecondsPerInvocation="297705" maxMicrosecondsPerInvocation="465990" standardDeviationMicrosecondsPerInvocation="168285"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="357" invocations="358" avgMicrosecondsPerInvocation="999" maxMicrosecondsPerInvocation="31526" standardDeviationMicrosecondsPerInvocation="2480"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="83" invocations="359" avgMicrosecondsPerInvocation="233" maxMicrosecondsPerInvocation="1124" standardDeviationMicrosecondsPerInvocation="156"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="52" invocations="18" avgMicrosecondsPerInvocation="2932" maxMicrosecondsPerInvocation="17278" standardDeviationMicrosecondsPerInvocation="4632"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="32" invocations="62" avgMicrosecondsPerInvocation="516" maxMicrosecondsPerInvocation="3550" standardDeviationMicrosecondsPerInvocation="637"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="30" invocations="42" avgMicrosecondsPerInvocation="735" maxMicrosecondsPerInvocation="15673" standardDeviationMicrosecondsPerInvocation="2470"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1615994117052" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1615994117054" release="" codeSize="63" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1615994834787" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1615994878336" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1615994936569" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1615994942321" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1615995021514" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1615995094938" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1615995355296" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1615995398734" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1616001162049" release="" codeSize="36" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1616002126467" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1616002191764" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1616002263757" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1616002497860" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1616002504159" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1616002835850" release="" codeSize="38" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1616002924274" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1616098957150" release="" codeSize="41" numClasses="1"/>
+  </History>
+</BugCollection>

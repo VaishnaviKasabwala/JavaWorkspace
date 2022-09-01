@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="43" timestamp="1611900807129" analysisTimestamp="1611900806963" release="">
+  <Project projectName="Newton">
+    <Jar>C:\Users\vkasa\Documents\workspace\Newton\bin\Newton2.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\workspace\Newton\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\Newton\test</SrcDir>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\Newton\src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2" last="4" removedByChange="true">
+    <Class classname="Newton1">
+      <SourceLine classname="Newton1" sourcefile="Newton1.java" sourcepath="Newton1.java"/>
+    </Class>
+    <Method classname="Newton1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Newton1" start="38" end="49" startBytecode="0" endBytecode="15" sourcefile="Newton1.java" sourcepath="Newton1.java"/>
+    </Method>
+    <LocalVariable name="in" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Newton1" start="38" end="38" startBytecode="7" endBytecode="7" sourcefile="Newton1.java" sourcepath="Newton1.java"/>
+    <SourceLine classname="Newton1" start="38" end="38" startBytecode="7" endBytecode="7" sourcefile="Newton1.java" sourcepath="Newton1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="in"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2" last="4" removedByChange="true">
+    <Class classname="Newton1">
+      <SourceLine classname="Newton1" sourcefile="Newton1.java" sourcepath="Newton1.java"/>
+    </Class>
+    <Method classname="Newton1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Newton1" start="38" end="49" startBytecode="0" endBytecode="15" sourcefile="Newton1.java" sourcepath="Newton1.java"/>
+    </Method>
+    <LocalVariable name="out" register="2" pc="16" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Newton1" start="39" end="39" startBytecode="15" endBytecode="15" sourcefile="Newton1.java" sourcepath="Newton1.java"/>
+    <SourceLine classname="Newton1" start="39" end="39" startBytecode="15" endBytecode="15" sourcefile="Newton1.java" sourcepath="Newton1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="out"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" priority="2" rank="17" abbrev="RV" category="STYLE" first="6" last="10" removedByChange="true">
+    <Class classname="Newton1">
+      <SourceLine classname="Newton1" sourcefile="Newton1.java" sourcepath="Newton1.java"/>
+    </Class>
+    <Method classname="Newton1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Newton1" start="46" end="71" startBytecode="0" endBytecode="234" sourcefile="Newton1.java" sourcepath="Newton1.java"/>
+    </Method>
+    <Method classname="Newton1" name="sqrt" signature="(D)D" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="Newton1" start="29" end="36" startBytecode="0" endBytecode="155" sourcefile="Newton1.java" sourcepath="Newton1.java"/>
+    </Method>
+    <SourceLine classname="Newton1" start="58" end="58" startBytecode="40" endBytecode="40" sourcefile="Newton1.java" sourcepath="Newton1.java"/>
+    <SourceLine classname="Newton1" start="58" end="58" startBytecode="40" endBytecode="40" sourcefile="Newton1.java" sourcepath="Newton1.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2" last="7" removedByChange="true">
+    <Class classname="Newton2">
+      <SourceLine classname="Newton2" sourcefile="Newton2.java" sourcepath="Newton2.java"/>
+    </Class>
+    <Method classname="Newton2" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Newton2" start="38" end="49" startBytecode="0" endBytecode="15" sourcefile="Newton2.java" sourcepath="Newton2.java"/>
+    </Method>
+    <LocalVariable name="in" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Newton2" start="38" end="38" startBytecode="7" endBytecode="7" sourcefile="Newton2.java" sourcepath="Newton2.java"/>
+    <SourceLine classname="Newton2" start="38" end="38" startBytecode="7" endBytecode="7" sourcefile="Newton2.java" sourcepath="Newton2.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="in"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2" last="7" removedByChange="true">
+    <Class classname="Newton2">
+      <SourceLine classname="Newton2" sourcefile="Newton2.java" sourcepath="Newton2.java"/>
+    </Class>
+    <Method classname="Newton2" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Newton2" start="38" end="49" startBytecode="0" endBytecode="15" sourcefile="Newton2.java" sourcepath="Newton2.java"/>
+    </Method>
+    <LocalVariable name="out" register="2" pc="16" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Newton2" start="39" end="39" startBytecode="15" endBytecode="15" sourcefile="Newton2.java" sourcepath="Newton2.java"/>
+    <SourceLine classname="Newton2" start="39" end="39" startBytecode="15" endBytecode="15" sourcefile="Newton2.java" sourcepath="Newton2.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="out"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" priority="2" rank="17" abbrev="RV" category="STYLE" first="8" last="11" removedByChange="true">
+    <Class classname="Newton2">
+      <SourceLine classname="Newton2" sourcefile="Newton2.java" sourcepath="Newton2.java"/>
+    </Class>
+    <Method classname="Newton2" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Newton2" start="46" end="71" startBytecode="0" endBytecode="235" sourcefile="Newton2.java" sourcepath="Newton2.java"/>
+    </Method>
+    <Method classname="Newton2" name="sqrt" signature="(D)D" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="Newton2" start="29" end="36" startBytecode="0" endBytecode="155" sourcefile="Newton2.java" sourcepath="Newton2.java"/>
+    </Method>
+    <SourceLine classname="Newton2" start="58" end="58" startBytecode="41" endBytecode="41" sourcefile="Newton2.java" sourcepath="Newton2.java"/>
+    <SourceLine classname="Newton2" start="58" end="58" startBytecode="41" endBytecode="41" sourcefile="Newton2.java" sourcepath="Newton2.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="4" last="6" removedByChange="true">
+    <Class classname="Newton3">
+      <SourceLine classname="Newton3" sourcefile="Newton3.java" sourcepath="Newton3.java"/>
+    </Class>
+    <Method classname="Newton3" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Newton3" start="38" end="49" startBytecode="0" endBytecode="15" sourcefile="Newton3.java" sourcepath="Newton3.java"/>
+    </Method>
+    <LocalVariable name="in" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Newton3" start="38" end="38" startBytecode="7" endBytecode="7" sourcefile="Newton3.java" sourcepath="Newton3.java"/>
+    <SourceLine classname="Newton3" start="38" end="38" startBytecode="7" endBytecode="7" sourcefile="Newton3.java" sourcepath="Newton3.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="in"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="4" last="6" removedByChange="true">
+    <Class classname="Newton3">
+      <SourceLine classname="Newton3" sourcefile="Newton3.java" sourcepath="Newton3.java"/>
+    </Class>
+    <Method classname="Newton3" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Newton3" start="38" end="49" startBytecode="0" endBytecode="15" sourcefile="Newton3.java" sourcepath="Newton3.java"/>
+    </Method>
+    <LocalVariable name="out" register="2" pc="16" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Newton3" start="39" end="39" startBytecode="15" endBytecode="15" sourcefile="Newton3.java" sourcepath="Newton3.java"/>
+    <SourceLine classname="Newton3" start="39" end="39" startBytecode="15" endBytecode="15" sourcefile="Newton3.java" sourcepath="Newton3.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="out"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" priority="2" rank="17" abbrev="RV" category="STYLE" first="9" last="31" removedByChange="true">
+    <Class classname="Newton3">
+      <SourceLine classname="Newton3" sourcefile="Newton3.java" sourcepath="Newton3.java"/>
+    </Class>
+    <Method classname="Newton3" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Newton3" start="47" end="74" startBytecode="0" endBytecode="270" sourcefile="Newton3.java" sourcepath="Newton3.java"/>
+    </Method>
+    <Method classname="Newton3" name="sqrt" signature="(DD)D" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="Newton3" start="28" end="37" startBytecode="0" endBytecode="157" sourcefile="Newton3.java" sourcepath="Newton3.java"/>
+    </Method>
+    <SourceLine classname="Newton3" start="62" end="62" startBytecode="58" endBytecode="58" sourcefile="Newton3.java" sourcepath="Newton3.java"/>
+    <SourceLine classname="Newton3" start="62" end="62" startBytecode="58" endBytecode="58" sourcefile="Newton3.java" sourcepath="Newton3.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 29 Jan 2021 01:13:26 -0500" total_classes="1" referenced_classes="18" total_bugs="0" total_size="28" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="0.25" clock_seconds="0.17" peak_mbytes="942.96" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="28">
+      <ClassStats class="Newton2" sourceFile="Newton2.java" interface="false" size="28" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="56" invocations="357" avgMicrosecondsPerInvocation="159" maxMicrosecondsPerInvocation="10733" standardDeviationMicrosecondsPerInvocation="612"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="37" invocations="2" avgMicrosecondsPerInvocation="18520" maxMicrosecondsPerInvocation="32914" standardDeviationMicrosecondsPerInvocation="14393"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="25" invocations="358" avgMicrosecondsPerInvocation="72" maxMicrosecondsPerInvocation="369" standardDeviationMicrosecondsPerInvocation="58"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1611708827787" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1611708827789" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1611708996012" release="" codeSize="26" numClasses="2"/>
+    <AppVersion sequence="3" timestamp="1611709251725" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1611709275573" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1611710460667" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1611710835050" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1611710837796" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1611710841979" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1611710870756" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1611711101078" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1611711203223" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1611711462991" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1611712264416" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1611712865414" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1611753152428" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1611753287963" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1611753290144" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1611755419209" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1611755660793" release="" codeSize="45" numClasses="2"/>
+    <AppVersion sequence="20" timestamp="1611755692710" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1611755817127" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1611756055944" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1611898070639" release="" codeSize="21" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1611898178704" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1611898265515" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1611898331873" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1611898440114" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1611898453463" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1611898758517" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1611898853043" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1611898920311" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1611899030881" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="33" timestamp="1611899125382" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="34" timestamp="1611899312650" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="35" timestamp="1611899374493" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="36" timestamp="1611899810854" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="37" timestamp="1611900293516" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="38" timestamp="1611900418019" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="39" timestamp="1611900467672" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="40" timestamp="1611900511207" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="41" timestamp="1611900551732" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="42" timestamp="1611900799091" release="" codeSize="25" numClasses="1"/>
+  </History>
+</BugCollection>

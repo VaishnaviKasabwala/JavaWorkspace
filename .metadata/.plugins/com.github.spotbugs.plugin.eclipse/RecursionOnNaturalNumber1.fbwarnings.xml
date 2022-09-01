@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="13" timestamp="1614783185570" analysisTimestamp="1614783185286" release="">
+  <Project projectName="RecursionOnNaturalNumber1">
+    <Jar>C:\Users\vkasa\Documents\workspace\RecursionOnNaturalNumber1\bin\NaturalNumberStaticOps.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\workspace\RecursionOnNaturalNumber1\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\RecursionOnNaturalNumber1\test</SrcDir>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\RecursionOnNaturalNumber1\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 3 Mar 2021 09:53:05 -0500" total_classes="1" referenced_classes="20" total_bugs="0" total_size="93" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="0.91" clock_seconds="0.28" peak_mbytes="596.13" alloc_mbytes="2048.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="93">
+      <ClassStats class="NaturalNumberStaticOps" sourceFile="NaturalNumberStaticOps.java" interface="false" size="93" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="78" invocations="2" avgMicrosecondsPerInvocation="39062" maxMicrosecondsPerInvocation="72463" standardDeviationMicrosecondsPerInvocation="33401"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="65" invocations="362" avgMicrosecondsPerInvocation="179" maxMicrosecondsPerInvocation="2481" standardDeviationMicrosecondsPerInvocation="337"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="43" invocations="363" avgMicrosecondsPerInvocation="118" maxMicrosecondsPerInvocation="1167" standardDeviationMicrosecondsPerInvocation="117"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614777004142" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1614777004143" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1614777557333" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1614777597067" release="" codeSize="81" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1614777660002" release="" codeSize="81" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1614777675586" release="" codeSize="81" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1614777696009" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1614777725183" release="" codeSize="81" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1614777776259" release="" codeSize="81" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1614777875552" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1614777895719" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1614777968184" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1614783112549" release="" codeSize="93" numClasses="1"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\vkasa\OneDrive\Documents\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1041617780.index
+2234343715.index
+1954370662.index
+2927171342.index
+2014901558.index
+67935206.index

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="components.simplereader.SimpleReader"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="components.utilities.FormatChecker"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTML.Tag"/>
+    <fullyQualifiedTypeName name="components.naturalnumber.NaturalNumber2"/>
+    <fullyQualifiedTypeName name="components.utilities.Reporter"/>
+    <fullyQualifiedTypeName name="components.xmltree.XMLTree"/>
+    <fullyQualifiedTypeName name="components.queue.Queue"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="components.sequence.Sequence"/>
+    <fullyQualifiedTypeName name="components.stack.Stack"/>
+    <fullyQualifiedTypeName name="components.queue.Queue1L"/>
+    <fullyQualifiedTypeName name="components.queue.QueueKernel"/>
+    <fullyQualifiedTypeName name="components.map.Map"/>
+    <fullyQualifiedTypeName name="components.map.MapKernel"/>
+    <fullyQualifiedTypeName name="components.simplewriter.SimpleWriter"/>
+    <fullyQualifiedTypeName name="components.set.Set"/>
+</qualifiedTypeNameHistroy>

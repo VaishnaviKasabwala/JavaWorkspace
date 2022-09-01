@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HW20.java&apos; to &apos;HW20.java&apos;&#x0D;&#x0A;- Original project: &apos;HW&apos;&#x0D;&#x0A;- Destination element: &apos;HW20.java&apos;&#x0D;&#x0A;- Original element: &apos;HW20.java&apos;" description="Copy compilation unit" destination="/src&lt;{HW20.java" element1="/src&lt;{HW20.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1618569928367" units="1" version="1.0"/>
+</session>

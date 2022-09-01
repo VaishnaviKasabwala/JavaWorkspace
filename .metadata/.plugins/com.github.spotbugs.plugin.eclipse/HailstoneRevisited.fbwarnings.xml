@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="28" timestamp="1614394406932" analysisTimestamp="1614394406205" release="">
+  <Project projectName="HailstoneRevisited">
+    <Jar>C:\Users\vkasa\Documents\workspace\HailstoneRevisited\bin\Hailstone1.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\workspace\HailstoneRevisited\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\HailstoneRevisited\test</SrcDir>
+    <SrcDir>C:\Users\vkasa\Documents\workspace\HailstoneRevisited\src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="28">
+    <Class classname="Hailstone1">
+      <SourceLine classname="Hailstone1" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    </Class>
+    <Method classname="Hailstone1" name="generateSeries" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="Hailstone1" start="35" end="51" startBytecode="0" endBytecode="59" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    </Method>
+    <LocalVariable name="remainder" register="6" pc="48" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hailstone1" start="39" end="39" startBytecode="46" endBytecode="46" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    <SourceLine classname="Hailstone1" start="39" end="39" startBytecode="46" endBytecode="46" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="remainder"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="9" last="9" removedByChange="true">
+    <Class classname="Hailstone1">
+      <SourceLine classname="Hailstone1" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    </Class>
+    <Method classname="Hailstone1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Hailstone1" start="45" end="67" startBytecode="0" endBytecode="32" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    </Method>
+    <LocalVariable name="repeat" register="5" pc="63" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hailstone1" start="60" end="60" startBytecode="61" endBytecode="61" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    <SourceLine classname="Hailstone1" start="60" end="60" startBytecode="61" endBytecode="61" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="repeat"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="5" last="5" removedByChange="true">
+    <Class classname="Hailstone1">
+      <SourceLine classname="Hailstone1" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    </Class>
+    <Field classname="Hailstone1" name="input" signature="I" isStatic="false">
+      <SourceLine classname="Hailstone1" start="56" end="56" startBytecode="0" endBytecode="0" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="5" last="5" removedByChange="true">
+    <Class classname="Hailstone1">
+      <SourceLine classname="Hailstone1" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    </Class>
+    <Field classname="Hailstone1" name="repeat" signature="C" isStatic="false">
+      <SourceLine classname="Hailstone1" start="55" end="55" startBytecode="0" endBytecode="0" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="27">
+    <Class classname="Hailstone2">
+      <SourceLine classname="Hailstone2" sourcefile="Hailstone2.java" sourcepath="Hailstone2.java"/>
+    </Class>
+    <Method classname="Hailstone2" name="generateSeries" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="Hailstone2" start="35" end="56" startBytecode="0" endBytecode="76" sourcefile="Hailstone2.java" sourcepath="Hailstone2.java"/>
+    </Method>
+    <LocalVariable name="zero" register="3" pc="18" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hailstone2" start="36" end="36" startBytecode="17" endBytecode="17" sourcefile="Hailstone2.java" sourcepath="Hailstone2.java"/>
+    <SourceLine classname="Hailstone2" start="36" end="36" startBytecode="17" endBytecode="17" sourcefile="Hailstone2.java" sourcepath="Hailstone2.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="zero"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="27">
+    <Class classname="Hailstone2">
+      <SourceLine classname="Hailstone2" sourcefile="Hailstone2.java" sourcepath="Hailstone2.java"/>
+    </Class>
+    <Method classname="Hailstone2" name="generateSeries" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="Hailstone2" start="35" end="56" startBytecode="0" endBytecode="76" sourcefile="Hailstone2.java" sourcepath="Hailstone2.java"/>
+    </Method>
+    <LocalVariable name="remainder" register="7" pc="58" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hailstone2" start="40" end="40" startBytecode="56" endBytecode="56" sourcefile="Hailstone2.java" sourcepath="Hailstone2.java"/>
+    <SourceLine classname="Hailstone2" start="40" end="40" startBytecode="56" endBytecode="56" sourcefile="Hailstone2.java" sourcepath="Hailstone2.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="remainder"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="26">
+    <Class classname="Hailstone3">
+      <SourceLine classname="Hailstone3" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    </Class>
+    <Method classname="Hailstone3" name="generateSeries" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="Hailstone3" start="35" end="61" startBytecode="0" endBytecode="97" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    </Method>
+    <LocalVariable name="zero" register="3" pc="18" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hailstone3" start="36" end="36" startBytecode="17" endBytecode="17" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    <SourceLine classname="Hailstone3" start="36" end="36" startBytecode="17" endBytecode="17" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="zero"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="26">
+    <Class classname="Hailstone3">
+      <SourceLine classname="Hailstone3" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    </Class>
+    <Method classname="Hailstone3" name="generateSeries" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="Hailstone3" start="35" end="61" startBytecode="0" endBytecode="97" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    </Method>
+    <LocalVariable name="remainder" register="7" pc="58" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hailstone3" start="40" end="40" startBytecode="56" endBytecode="56" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    <SourceLine classname="Hailstone3" start="40" end="40" startBytecode="56" endBytecode="56" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="remainder"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="21" last="22" removedByChange="true">
+    <Class classname="Hailstone3">
+      <SourceLine classname="Hailstone3" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    </Class>
+    <Method classname="Hailstone3" name="swap1" signature="(II)V" isStatic="true">
+      <SourceLine classname="Hailstone3" start="64" end="67" startBytecode="0" endBytecode="6" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    </Method>
+    <LocalVariable name="i1" register="0" pc="4" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hailstone3" start="65" end="65" startBytecode="3" endBytecode="3" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    <SourceLine classname="Hailstone3" start="65" end="65" startBytecode="3" endBytecode="3" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="i1"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="21" last="22" removedByChange="true">
+    <Class classname="Hailstone3">
+      <SourceLine classname="Hailstone3" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    </Class>
+    <Method classname="Hailstone3" name="swap1" signature="(II)V" isStatic="true">
+      <SourceLine classname="Hailstone3" start="64" end="67" startBytecode="0" endBytecode="6" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    </Method>
+    <LocalVariable name="i2" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hailstone3" start="66" end="66" startBytecode="5" endBytecode="5" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    <SourceLine classname="Hailstone3" start="66" end="66" startBytecode="5" endBytecode="5" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="i2"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 26 Feb 2021 21:53:26 -0500" total_classes="1" referenced_classes="19" total_bugs="5" total_size="29" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="3.86" clock_seconds="0.73" peak_mbytes="853.05" alloc_mbytes="2048.00" gc_seconds="0.02" priority_2="3" priority_1="2">
+    <PackageStats package="" total_bugs="5" total_types="3" total_size="29" priority_2="3" priority_1="2">
+      <ClassStats class="Hailstone1" sourceFile="Hailstone1.java" interface="false" size="29" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="257" invocations="362" avgMicrosecondsPerInvocation="710" maxMicrosecondsPerInvocation="10230" standardDeviationMicrosecondsPerInvocation="1377"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="206" invocations="2" avgMicrosecondsPerInvocation="103019" maxMicrosecondsPerInvocation="195729" standardDeviationMicrosecondsPerInvocation="92709"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="69" invocations="363" avgMicrosecondsPerInvocation="192" maxMicrosecondsPerInvocation="3062" standardDeviationMicrosecondsPerInvocation="194"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="23" invocations="19" avgMicrosecondsPerInvocation="1262" maxMicrosecondsPerInvocation="6652" standardDeviationMicrosecondsPerInvocation="1932"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1613610662166" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1613610662168" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1613611435056" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1613611818205" release="" codeSize="7" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1613613638660" release="" codeSize="7" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1613614056046" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1613614068560" release="" codeSize="7" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1613615316041" release="" codeSize="7" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1613615458784" release="" codeSize="7" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1613615533632" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1613616114602" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1613616636132" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1613616890437" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1613616998355" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1613617021679" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1613617103171" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1613617105382" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1613617123464" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1613617367387" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1613617398208" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1613617411282" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1613700480153" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1613700517167" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1613700572114" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1614393536744" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1614393927212" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1614394400761" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1614394402160" release="" codeSize="33" numClasses="1"/>
+  </History>
+</BugCollection>

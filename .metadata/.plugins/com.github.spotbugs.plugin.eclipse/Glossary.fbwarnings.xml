@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="13" timestamp="1619011892163" analysisTimestamp="1619011891918" release="">
+  <Project projectName="Glossary">
+    <Jar>C:\Users\vkasa\OneDrive\Documents\workspace\Glossary\bin\Glossary$StringLT.class</Jar>
+    <Jar>C:\Users\vkasa\OneDrive\Documents\workspace\Glossary\bin\Glossary.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\OneDrive\Documents\workspace\Glossary\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components .jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\Glossary\test</SrcDir>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\Glossary\src</SrcDir>
+  </Project>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="1">
+    <Class classname="Glossary">
+      <SourceLine classname="Glossary" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+    <Method classname="Glossary" name="reader" signature="(Lcomponents/simplereader/SimpleReader;Lcomponents/queue/Queue;Lcomponents/queue/Queue;)V" isStatic="true">
+      <SourceLine classname="Glossary" start="58" end="104" startBytecode="0" endBytecode="554" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Method>
+    <SourceLine classname="Glossary" start="88" end="88" startBytecode="158" endBytecode="158" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="Glossary$StringLT">
+      <SourceLine classname="Glossary$StringLT" start="1" end="27" sourcefile="Glossary.java" sourcepath="Glossary.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 21 Apr 2021 09:31:31 -0400" total_classes="2" referenced_classes="41" total_bugs="2" total_size="173" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="0.52" clock_seconds="0.25" peak_mbytes="766.33" alloc_mbytes="2048.00" gc_seconds="0.00" priority_2="2">
+    <PackageStats package="" total_bugs="2" total_types="2" total_size="173" priority_2="2">
+      <ClassStats class="Glossary" sourceFile="Glossary.java" interface="false" size="165" bugs="1" priority_2="1"/>
+      <ClassStats class="Glossary$StringLT" sourceFile="Glossary.java" interface="false" size="8" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="58" invocations="494" avgMicrosecondsPerInvocation="119" maxMicrosecondsPerInvocation="2028" standardDeviationMicrosecondsPerInvocation="224"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="44" invocations="2" avgMicrosecondsPerInvocation="22116" maxMicrosecondsPerInvocation="39834" standardDeviationMicrosecondsPerInvocation="17718"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="37" invocations="496" avgMicrosecondsPerInvocation="75" maxMicrosecondsPerInvocation="444" standardDeviationMicrosecondsPerInvocation="60"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1618976575325" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1618976575325" release="" codeSize="169" numClasses="2"/>
+    <AppVersion sequence="2" timestamp="1618976664628" release="" codeSize="170" numClasses="2"/>
+    <AppVersion sequence="3" timestamp="1618978044228" release="" codeSize="167" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1619007877115" release="" codeSize="165" numClasses="2"/>
+    <AppVersion sequence="5" timestamp="1619009780468" release="" codeSize="174" numClasses="2"/>
+    <AppVersion sequence="6" timestamp="1619009968994" release="" codeSize="177" numClasses="2"/>
+    <AppVersion sequence="7" timestamp="1619010612388" release="" codeSize="175" numClasses="2"/>
+    <AppVersion sequence="8" timestamp="1619010658100" release="" codeSize="175" numClasses="2"/>
+    <AppVersion sequence="9" timestamp="1619010683315" release="" codeSize="177" numClasses="2"/>
+    <AppVersion sequence="10" timestamp="1619010749957" release="" codeSize="176" numClasses="2"/>
+    <AppVersion sequence="11" timestamp="1619010760693" release="" codeSize="174" numClasses="2"/>
+    <AppVersion sequence="12" timestamp="1619011336722" release="" codeSize="173" numClasses="2"/>
+  </History>
+</BugCollection>

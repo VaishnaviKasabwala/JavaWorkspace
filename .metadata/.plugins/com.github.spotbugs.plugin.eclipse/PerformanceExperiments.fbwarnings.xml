@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="8" timestamp="1617851121277" analysisTimestamp="1617851120777" release="">
+  <Project projectName="PerformanceExperiments">
+    <Jar>C:\Users\vkasa\OneDrive\Documents\workspace\PerformanceExperiments\bin\NaturalNumber2SlowPower.class</Jar>
+    <AuxClasspathEntry>C:\Users\vkasa\OneDrive\Documents\workspace\PerformanceExperiments\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Documents\components .jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\vkasa\Downloads\Eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\PerformanceExperiments\test</SrcDir>
+    <SrcDir>C:\Users\vkasa\OneDrive\Documents\workspace\PerformanceExperiments\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 7 Apr 2021 23:05:20 -0400" total_classes="1" referenced_classes="32" total_bugs="0" total_size="47" num_packages="1" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="2.81" clock_seconds="0.50" peak_mbytes="542.45" alloc_mbytes="2048.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="47">
+      <ClassStats class="NaturalNumber2SlowPower" sourceFile="NaturalNumber2SlowPower.java" interface="false" size="47" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="129" invocations="398" avgMicrosecondsPerInvocation="324" maxMicrosecondsPerInvocation="12059" standardDeviationMicrosecondsPerInvocation="834"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="110" invocations="2" avgMicrosecondsPerInvocation="55226" maxMicrosecondsPerInvocation="100179" standardDeviationMicrosecondsPerInvocation="44952"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="79" invocations="401" avgMicrosecondsPerInvocation="197" maxMicrosecondsPerInvocation="978" standardDeviationMicrosecondsPerInvocation="145"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="27" invocations="363" avgMicrosecondsPerInvocation="74" maxMicrosecondsPerInvocation="12408" standardDeviationMicrosecondsPerInvocation="652"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="21" invocations="32" avgMicrosecondsPerInvocation="679" maxMicrosecondsPerInvocation="4757" standardDeviationMicrosecondsPerInvocation="1108"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="15" invocations="32" avgMicrosecondsPerInvocation="488" maxMicrosecondsPerInvocation="3722" standardDeviationMicrosecondsPerInvocation="708"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1617850299202" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1617850299205" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1617850379134" release="" codeSize="34" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1617850664756" release="" codeSize="34" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1617850721722" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1617850922577" release="" codeSize="34" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1617851038262" release="" codeSize="34" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1617851070634" release="" codeSize="36" numClasses="1"/>
+  </History>
+</BugCollection>
